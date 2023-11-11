@@ -80,7 +80,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div([
-    html.H2(children="Covid-19 Statistics Across Globe", style={'color': '#fff', 'text-align': 'center'}),
+    html.H2(children="Covid-19 Statistics Across Globe", style={'color': 'black', 'text-align': 'center'}),
     html.Div([
         html.Div([
             html.Div([
